@@ -1,0 +1,31 @@
+
+Android Guidelines
+
+1. 	Maintain code quality. 
+	Use MVP / MVVM
+
+2. 	Include Unit Tests
+
+3. 	Use Proguard
+
+4. 	Use strings.xml
+	String resource usage for example if new languages needs to be added, 
+	this gonna be useful
+
+5. 	Separate Layut for UI elements that will be re-used
+
+6. 	Launcher icons in mipmap - folders
+
+7. 	Use shapes and selectors instead of images as much as possible - to reduce apk size
+
+8. 	Avoid deep levels in layouts. Use Constraint Layout
+
+9. 	Use Retrofit for HTTP Library
+
+10. Use Parcelable class instead of Serializeable when passing data in Intents or Bundles
+
+11. Use styles to avoid duplicate attributes in layout XMLs
+
+12. Use RxJava
+
+13. Use Glide
